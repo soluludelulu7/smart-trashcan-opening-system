@@ -1,0 +1,369 @@
+{
+  "format": "velxio-project",
+  "version": 1,
+  "boards": [
+    {
+      "id": "arduino-uno",
+      "boardKind": "arduino-uno",
+      "x": 501.67686524568614,
+      "y": 350.23529833533325,
+      "activeFileGroupId": "group-arduino-uno",
+      "languageMode": "arduino",
+      "serialBaudRate": 0,
+      "compiledProgram": ":100000000C9462000C948A000C948A000C948A0070\n:100010000C948A000C948A000C948A000C948A0038\n:100020000C948A000C948A000C948A000C9477013A\n:100030000C948A000C948A000C948A000C948A0018\n:100040000C942D010C948A000C948A000C948A0064\n:100050000C948A000C948A000C948A000C948A00F8\n:100060000C948A000C948A000000000024002700F1\n:100070002A0000000000250028002B0000000000DE\n:1000800023002600290004040404040404040202DA\n:100090000202020203030303030301020408102007\n:1000A0004080010204081020010204081020000012\n:1000B0000008000201000003040700000000000027\n:1000C0000000340311241FBECFEFD8E0DEBFCDBF48\n:1000D00011E0A0E0B1E0E6ECF6E002C005900D9280\n:1000E000A030B107D9F721E0A0E0B1E001C01D9236\n:1000F000A433B207E1F710E0C2E6D0E004C02197D4\n:10010000FE010E945B03C136D107C9F70E9433028A\n:100110000C9461030C940000E0913101EC30E0F4A8\n:100120002091320188E890E0821B910927FD939588\n:1001300023E0880F991F2A95E1F704974FB7F894A9\n:100140002E2F30E0F901EE0FFF1FE20FF31FE35FE8\n:10015000FE4F928381834FBF0895833081F028F44E\n:10016000813099F08230A9F008958730A9F0883065\n:10017000C9F08430B1F4809180008F7D03C08091FC\n:1001800080008F7780938000089584B58F7784BD39\n:10019000089584B58F7DFBCF8091B0008F778093D9\n:1001A000B00008958091B0008F7DF9CFCF93DF9399\n:1001B000282F30E0F901E255FF4F8491F901E6560E\n:1001C000FF4FD491F901EA57FF4FC491CC23A1F01E\n:1001D00081110E94AD00EC2FF0E0EE0FFF1FE458FC\n:1001E000FF4FA591B491EC91ED2381E090E009F4EB\n:1001F00080E0DF91CF91089580E090E0FACF1F93E7\n:10020000CF93DF93282F30E0F901E255FF4F84911F\n:10021000F901E656FF4FD491F901EA57FF4FC49117\n:10022000CC23A9F0162F81110E94AD00EC2FF0E035\n:10023000EE0FFF1FEE58FF4FA591B4918FB7F894C2\n:10024000EC91111108C0D095DE23DC938FBFDF91B4\n:10025000CF911F910895DE2BF8CF1F920F920FB60A\n:100260000F9211242F933F938F939F93AF93BF933C\n:100270008091090190910A01A0910B01B0910C01AC\n:100280003091080123E0230F2D3758F50196A11D69\n:10029000B11D209308018093090190930A01A09356\n:1002A0000B01B0930C018091040190910501A09184\n:1002B0000601B09107010196A11DB11D80930401B3\n:1002C00090930501A0930601B0930701BF91AF91F0\n:1002D0009F918F913F912F910F900FBE0F901F9084\n:1002E000189526E8230F0296A11DB11DD2CF1F92AB\n:1002F0000F920FB60F9211242F933F934F935F935A\n:100300006F937F938F939F93AF93BF93CF93DF931D\n:10031000EF93FF9380910101C0910001D0E087FF2E\n:1003200024C01092850010928400809101018F5F9B\n:100330008093010180910101082E000C990B8C170C\n:100340009D0724F4809101018C30C4F180918400D8\n:1003500090918500049680349C4908F47AC080917D\n:10036000840090918500049676C080910101082E4A\n:10037000000C990B8C179D07C4F6E09101018E2F9C\n:10038000EE0F990BFC01EE0FFF1FE80FF91FE35F63\n:10039000FE4F808186FFC9CFE09101018E2FEE0FC5\n:1003A000990BFC01EE0FFF1FE80FF91FE35FFE4FF3\n:1003B000808160E08F730E94FF00B7CF209184009E\n:1003C00030918500E09101018E2FEE0F990BFC0119\n:1003D000EE0FFF1FE80FF91FE35FFE4F818192814F\n:1003E000820F931F9093890080938800E091010110\n:1003F0008E2FEE0F990BFC01EE0FFF1FE80FF91F78\n:10040000E35FFE4F808186FF11C0E09101018E2FD6\n:10041000EE0F990BFC01EE0FFF1FE80FF91FE35FD2\n:10042000FE4F808161E08F730E94FF00FF91EF918A\n:10043000DF91CF91BF91AF919F918F917F916F91FC\n:100440005F914F913F912F910F900FBE0F901F9092\n:10045000189580E49CE990938900809388008FEF41\n:1004600080930101E3CF789484B5826084BD84B524\n:10047000816084BD85B5826085BD85B5816085BD9F\n:1004800080916E00816080936E0010928100809157\n:1004900081008260809381008091810081608093DF\n:1004A0008100809180008160809380008091B10004\n:1004B00084608093B1008091B00081608093B0002F\n:1004C00080917A00846080937A0080917A008260C3\n:1004D00080937A0080917A00816080937A00809185\n:1004E0007A00806880937A001092C1008091310177\n:1004F0008C3008F068C0E3EAF0E02491EFE8F0E027\n:100500008491882399F090E0880F991FFC01E859A5\n:10051000FF4FA591B491FC01EE58FF4F8591949146\n:100520008FB7F894EC91E22BEC938FBF809131015F\n:10053000282F30E0F901EE0FFF1FE20FF31FE35FFA\n:10054000FE4F9081907C99609083109232011092BE\n:1005500033012CE0622F0E944F03829FB0011124CF\n:1005600030E020E0AB01420F531FFA01EE0FFF1FF6\n:10057000E40FF51FE35FFE4F908196FD16C02F5FDD\n:100580003F4F2C30310571F781110FC01092800060\n:1005900082E0809381001092850010928400B19ACD\n:1005A00080916F00826080936F00E09131018E2F07\n:1005B00090E0FC01EE0FFF1FE80FF91FE35FFE4F15\n:1005C00080818064808380E4982E90E0E92E90E022\n:1005D000F92ECC24C394D12C82E00E94D6008C0149\n:1005E00083E00E94D600EC0190927C0080917A001A\n:1005F000806480937A0080917A0086FDFCCFA09081\n:100600007800B090790080910201909103010097E9\n:1006100041F00197C1F0E114F104F1F20E940000F1\n:10062000DBCF0E948C0061E085E00E94FF00011595\n:10063000110529F0209719F0A114B10421F4D092EA\n:100640000301C09202010E948C0061E086E00E94DA\n:10065000FF00012B21F0CD2B11F0AB28E1F6109219\n:10066000030110920201D7CF809100018C3098F4E1\n:1006700091E0980F909300018093310190E0FC018C\n:10068000EE0FFF1FE80FF91FE35FFE4F88EB9BE0C3\n:100690009283818308958FEF809331010895991B90\n:1006A00079E004C0991F961708F0961B881F7A9569\n:1006B000C9F780950895EE0FFF1F0590F491E02D86\n:0606C0000994F894FFCF3D\n:00000001FF\n"
+    }
+  ],
+  "fileGroups": {
+    "group-arduino-uno": [
+      {
+        "name": "sketch.ino",
+        "content": "#include <Servo.h>\nServo s;\nenum {Closed, Open} state = Closed;\n\nvoid setup() {\n    s.attach(9);\n}\n\nvoid loop() {\n    bool button = !digitalRead(2);\n    bool vibration = !digitalRead(3);\n    bool angle = !analogRead(A0);\n\n    switch (state) {\n        case Closed:\n            s.write(0);\n            digitalWrite(5, HIGH);\n            if (button || vibration || angle) {\n                state = Open;\n            }\n        \n        case Open:\n            s.write(0);\n            digitalWrite(6, HIGH);\n            if (button || vibration || angle) {\n                state = Closed;\n            }\n    }\n}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "servo_1784155971976_cp26s2xxm",
+      "metadataId": "servo",
+      "x": 1017.5943293800113,
+      "y": 575.8638449755103,
+      "properties": {
+        "angle": 0,
+        "horn": "single",
+        "hornColor": "#ccc"
+      }
+    },
+    {
+      "id": "vibration_switch_1784155958584_9ovgr474d",
+      "metadataId": "vibration-switch",
+      "x": 179.36561451211173,
+      "y": 560.6469519967662,
+      "properties": {
+        "activeHigh": true,
+        "pulseMs": 90,
+        "rotation": 0,
+        "active": false
+      }
+    },
+    {
+      "id": "pushbutton_1784165884376_a42z90emf",
+      "metadataId": "pushbutton",
+      "x": 188.70424984202168,
+      "y": 627.7161989473284,
+      "properties": {
+        "color": "red",
+        "pressed": false,
+        "label": "",
+        "xray": false,
+        "rotation": 90
+      }
+    },
+    {
+      "id": "potentiometer_1784165953500_wmz2qz28m",
+      "metadataId": "potentiometer",
+      "x": 219.41730696859366,
+      "y": 687.6969108363631,
+      "properties": {
+        "min": 0,
+        "max": 1023,
+        "value": 394,
+        "step": 1,
+        "startDegree": -135,
+        "endDegree": 135,
+        "rotation": 0
+      }
+    },
+    {
+      "id": "breadboard_full_1784166096792_dyzgnbfx5",
+      "metadataId": "breadboard-full",
+      "x": 304.9612321215294,
+      "y": 572.5367776941257,
+      "properties": {}
+    },
+    {
+      "id": "remote_led_module_1784166475200_99zbxti2m",
+      "metadataId": "remote-led-module",
+      "x": 987.7278191597218,
+      "y": 660.0302926021524,
+      "properties": {
+        "rotation": 90
+      }
+    }
+  ],
+  "wires": [
+    {
+      "waypoints": [],
+      "id": "wire-1784166118221",
+      "start": {
+        "componentId": "arduino-uno",
+        "pinName": "5V",
+        "x": 661.6768652456861,
+        "y": 541.7352983353333
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TP1",
+        "x": 335.9612321215294,
+        "y": 595.5367776941257
+      },
+      "color": "#cc0000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166122931",
+      "start": {
+        "componentId": "arduino-uno",
+        "pinName": "GND.2",
+        "x": 671.1768652456861,
+        "y": 541.7352983353333
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TN1",
+        "x": 335.9612321215294,
+        "y": 608.5367776941257
+      },
+      "color": "#000000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166139139",
+      "start": {
+        "componentId": "pushbutton_1784165884376_a42z90emf",
+        "pinName": "2.l",
+        "x": 239.20424984202168,
+        "y": 635.2161989473284
+      },
+      "end": {
+        "componentId": "arduino-uno",
+        "pinName": "2",
+        "x": 738.1768652456861,
+        "y": 359.23529833533325
+      },
+      "color": "#22c55e"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166152235",
+      "start": {
+        "componentId": "pushbutton_1784165884376_a42z90emf",
+        "pinName": "1.r",
+        "x": 258.2042498420217,
+        "y": 702.2161989473284
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TN2",
+        "x": 345.56123212152943,
+        "y": 608.5367776941257
+      },
+      "color": "#22c55e"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166161638",
+      "start": {
+        "componentId": "potentiometer_1784165953500_wmz2qz28m",
+        "pinName": "GND",
+        "x": 254.41730696859366,
+        "y": 762.1969108363631
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TN3",
+        "x": 355.1612321215294,
+        "y": 608.5367776941257
+      },
+      "color": "#000000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166168539",
+      "start": {
+        "componentId": "servo_1784155971976_cp26s2xxm",
+        "pinName": "GND",
+        "x": 1023.5943293800113,
+        "y": 631.8638449755103
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TN4",
+        "x": 364.7612321215294,
+        "y": 608.5367776941257
+      },
+      "color": "#000000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166182619",
+      "start": {
+        "componentId": "potentiometer_1784165953500_wmz2qz28m",
+        "pinName": "VCC",
+        "x": 274.41730696859366,
+        "y": 762.1969108363631
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TP63",
+        "x": 931.1612321215293,
+        "y": 595.5367776941257
+      },
+      "color": "#cc0000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166190159",
+      "start": {
+        "componentId": "servo_1784155971976_cp26s2xxm",
+        "pinName": "V+",
+        "x": 1023.5943293800113,
+        "y": 641.3638449755103
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TP62",
+        "x": 921.5612321215294,
+        "y": 595.5367776941257
+      },
+      "color": "#cc0000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166237414",
+      "start": {
+        "componentId": "vibration_switch_1784155958584_9ovgr474d",
+        "pinName": "GND",
+        "x": 273.36561451211173,
+        "y": 584.6469519967662
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TN5",
+        "x": 374.3612321215294,
+        "y": 608.5367776941257
+      },
+      "color": "#000000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166243171",
+      "start": {
+        "componentId": "vibration_switch_1784155958584_9ovgr474d",
+        "pinName": "VCC",
+        "x": 273.36561451211173,
+        "y": 594.4469519967662
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TP61",
+        "x": 911.9612321215294,
+        "y": 595.5367776941257
+      },
+      "color": "#cc0000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166261969",
+      "start": {
+        "componentId": "vibration_switch_1784155958584_9ovgr474d",
+        "pinName": "OUT",
+        "x": 273.36561451211173,
+        "y": 604.1469519967662
+      },
+      "end": {
+        "componentId": "arduino-uno",
+        "pinName": "3",
+        "x": 728.6768652456861,
+        "y": 359.23529833533325
+      },
+      "color": "#22c55e"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166270725",
+      "start": {
+        "componentId": "servo_1784155971976_cp26s2xxm",
+        "pinName": "PWM",
+        "x": 1023.5943293800113,
+        "y": 650.8638449755103
+      },
+      "end": {
+        "componentId": "arduino-uno",
+        "pinName": "9",
+        "x": 664.6768652456861,
+        "y": 359.23529833533325
+      },
+      "color": "#22c55e"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166487186",
+      "start": {
+        "componentId": "remote_led_module_1784166475200_99zbxti2m",
+        "pinName": "GND",
+        "x": 1025.7278191597218,
+        "y": 730.0302926021524
+      },
+      "end": {
+        "componentId": "breadboard_full_1784166096792_dyzgnbfx5",
+        "pinName": "TN6",
+        "x": 383.9612321215294,
+        "y": 608.5367776941257
+      },
+      "color": "#000000"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166643632",
+      "start": {
+        "componentId": "remote_led_module_1784166475200_99zbxti2m",
+        "pinName": "R",
+        "x": 1025.7278191597218,
+        "y": 685.0302926021524
+      },
+      "end": {
+        "componentId": "arduino-uno",
+        "pinName": "5",
+        "x": 709.6768652456861,
+        "y": 359.23529833533325
+      },
+      "color": "#22c55e"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166646839",
+      "start": {
+        "componentId": "remote_led_module_1784166475200_99zbxti2m",
+        "pinName": "G",
+        "x": 1025.7278191597218,
+        "y": 700.0302926021524
+      },
+      "end": {
+        "componentId": "arduino-uno",
+        "pinName": "6",
+        "x": 700.1768652456861,
+        "y": 359.23529833533325
+      },
+      "color": "#22c55e"
+    },
+    {
+      "waypoints": [],
+      "id": "wire-1784166650981",
+      "start": {
+        "componentId": "remote_led_module_1784166475200_99zbxti2m",
+        "pinName": "B",
+        "x": 1025.7278191597218,
+        "y": 715.0302926021524
+      },
+      "end": {
+        "componentId": "arduino-uno",
+        "pinName": "7",
+        "x": 690.6768652456861,
+        "y": 359.23529833533325
+      },
+      "color": "#22c55e"
+    }
+  ],
+  "activeBoardId": "arduino-uno",
+  "ignoreStock": false
+}
